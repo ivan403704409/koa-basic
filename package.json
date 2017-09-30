@@ -1,0 +1,23 @@
+{
+  "name": "koa-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co-views": "^2.1.0",
+    "ejs": "^2.5.7",
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
